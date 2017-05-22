@@ -26,9 +26,9 @@ module.exports = function(grunt) {
       files: [{
         expand: true,
         cwd: './assets',
-        src: ['**/*.!(coffee|less)'],
+        src: ['**/*.!(coffee|less|jsx)'],
         dest: '.tmp/public'
-      }]
+      }],
     },
     build: {
       files: [{
@@ -42,3 +42,4 @@ module.exports = function(grunt) {
 
   grunt.loadNpmTasks('grunt-contrib-copy');
 };
+

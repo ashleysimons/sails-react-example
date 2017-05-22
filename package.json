@@ -5,6 +5,7 @@
   "description": "a Sails application",
   "keywords": [],
   "dependencies": {
+    "babel-polyfill": "^6.23.0",
     "ejs": "2.3.4",
     "grunt": "1.0.1",
     "grunt-contrib-clean": "1.0.0",
@@ -20,6 +21,8 @@
     "grunt-sync": "0.5.2",
     "include-all": "^1.0.0",
     "rc": "1.0.1",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
     "sails": "~0.12.13",
     "sails-disk": "~0.10.9"
   },
@@ -33,5 +36,13 @@
     "url": "git://github.com/admin/sails-react-example.git"
   },
   "author": "admin",
-  "license": ""
+  "license": "",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.4.0",
+    "babel-preset-react": "^6.24.1",
+    "grunt-webpack": "^3.0.0",
+    "webpack": "^2.5.1"
+  }
 }
