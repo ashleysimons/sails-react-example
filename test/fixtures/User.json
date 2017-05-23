@@ -1,0 +1,16 @@
+[
+  {
+    "firstname": "Greg",
+    "surname": "Applebee",
+    "password": "demopassword",
+    "email": "alpha_first_greg@example.com",
+    "terms": "on"
+  },
+  {
+    "firstname": "Jeff",
+    "surname": "Jones",
+    "password": "demopassword",
+    "email": "alpha_second_jeff@example.com",
+    "terms": "on"
+  }
+]
