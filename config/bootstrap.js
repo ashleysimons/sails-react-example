@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 /**
  * Bootstrap
  * (sails.config.bootstrap)
