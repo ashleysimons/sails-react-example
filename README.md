@@ -1,3 +1,3 @@
 # sails-react-example
 
-a [Sails](http://sailsjs.org) application
+See the slides for this talk here: [Sailing with Node and React](http://ashleysimons.net/sailing-with-node-and-react/)
